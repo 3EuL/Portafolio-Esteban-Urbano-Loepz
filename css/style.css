@@ -46,7 +46,7 @@ img.logo{
     
 }
 
-.hero img{
+.hero img.dev{
     height: 200px;
     width: 200px;
     border-radius: 50%;
