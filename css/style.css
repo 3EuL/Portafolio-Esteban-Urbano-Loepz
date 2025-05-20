@@ -46,6 +46,15 @@ img.logo{
     
 }
 
+.hero-principal{
+    padding: 3rem;
+}
+
+.hero-principal h2{
+    font-size: 1.5rem;
+    color: black;
+}
+
 .hero img.dev{
     height: 200px;
     width: 200px;
@@ -54,9 +63,42 @@ img.logo{
 }
 
 
-
 @media screen and (max-width: 767px){
     .navbar-brand{
         display: none;
     }
+}
+
+@media  screen and (min-width: 700px) {
+    .hero-inferior-imagen{
+        max-width: 600px;
+    }
+    
+}
+
+/* Seccíon About */
+
+.dark-mode{
+    color: antiquewhite;
+    background-color: black;
+}
+
+.about-me{
+    height: 500px;
+    padding: 10px;
+}
+
+.about-me .contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.tittle{
+    font-size: 2rem;
+    padding:15px 0;
+    font-family: "Hedvig Letters Sans", sans-serif ;
 }
